@@ -9,7 +9,7 @@ It is a perl program. You can run it in Linux or OS X.
 #Usage
 in bash  
  chmod +x bucket.pl  
- ./bucket.pl <buckets> <number>  
+ ./bucket.pl \<buckets\> \<number\>  
 example:  
  ./bucket.pl 3,5 100  
  1 will be returned.

@@ -1,0 +1,18 @@
+The perl script bucket.pl can be used to judge whether the buckets can be summed to get the number. In this process buckets can be used repeatly.If a subsets of buckets can be used to get the number, the program will return 1. If it cannot, 0 will be returned.
+
+1. Environment
+It is a perl script. I have try it in Linux or OS X, it works fine.
+2. Usage
+in bash
+	chmod +x bucket.pl
+	./bucket.pl <buckets> <number>
+example:
+	./bucket.pl 3,5 100
+	1 will be returned.
+	./bucket.pl 3,7,11,13 30070955
+	1 will be returned.
+	./bucket.pl 11,13 119
+	0 will be returned.
+3. test
+The test_bucket.pl file contains some tests of bucket.pl. 
+The test_result.o contains the results of these tests.  
